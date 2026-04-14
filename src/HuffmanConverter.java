@@ -167,7 +167,7 @@ public class HuffmanConverter {
         for (int i = 0; i < encodedStr.length(); i++) {
             char bit = encodedStr.charAt(i);
             
-            // 移动到下一个节点
+            // move to the next node
             if (bit == '0') {
                 current = current.left;
             } else if (bit == '1') {
