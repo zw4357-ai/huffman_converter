@@ -8,6 +8,7 @@ A Java implementation of Huffman coding for lossless text compression. This prog
 - **HuffmanTree.java** — Builds and manages the Huffman tree structure.
 - **HuffmanNode.java** — Represents a single node in the Huffman tree.
 - **BinaryHeap.java** — Min-heap used to construct the Huffman tree efficiently (dependency, not shown).
+- **UnderflowException.java**
 
 ## How It Works
 
